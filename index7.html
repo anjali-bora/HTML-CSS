@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Using HTML, CSS customizes the scrollbar style for elements with scrollable overflow</title>
+</head>
+<body>
+<div class="Myclass">
+<div class="custom-scrollbar">
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+    Iure id exercitationem nulla qui repellat laborum vitae, <br />
+    molestias tempora velit natus. Quas, assumenda nisi. <br />
+    Quisquam enim qui iure, consequatur velit sit?
+  </p>
+</div>
+</div>
+</body>
+</html>
+
+<style> 
+    .Myclass{
+       border: 1px solid 
+    #cccfdb;
+       border-radius: 2px;
+    }
+    .custom-scrollbar {
+      height: 70px;
+      overflow-y: scroll;
+    }
+    
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 8px;
+    }
+    
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: 
+    #1E3F20;
+      border-radius: 12px;
+    }
+    
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: 
+    #742506;
+      border-radius: 12px;
+    }
+</style>

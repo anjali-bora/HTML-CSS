@@ -1,0 +1,24 @@
+The src attribute of script tag is used to add or include external JavaScript file into any number of html files. It increases the code re usability.
+
+syntax:-
+<script type="text/javascript" src="external.js"></script>
+=============================================================
+example:-
+
+function show() {
+   alert("External JavaScript file.");
+}
+
+<html>
+   <body>
+      <form>
+      <input type="button" value="Show" onclick="show()"/>
+      </form>
+      <script src="test.js"></script>
+   </body>
+</html>
+===============================================================
+
+question-2
+
+style.color
